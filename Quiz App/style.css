@@ -1,0 +1,59 @@
+section {
+  height: 100vh;
+}
+button {
+  width: 150px;
+  height: 30px;
+  background-color: aqua;
+  cursor: pointer;
+}
+a {
+  background-color: chartreuse;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: darkred;
+  border: 2px solid darkgreen;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+.questions {
+  border: 11px solid blue;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.q_box {
+  border: 3px solid rgb(0, 255, 42);
+  padding: 3px;
+}
+h3{
+    border: 3px solid black;
+    text-align: center;
+}
+p{
+    border: 1px solid rgb(255, 0, 0);
+    padding-left: 21px;
+    &:hover{
+        background-color: aqua;
+    }
+
+}
+
+.selected{
+  background-color: chartreuse;
+  &:hover{
+    background-color: chartreuse;
+  }
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
